@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700italic);
+html, body {
+  background: url(https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/18404_10204693461961892_7794836823782223224_n.jpg?oh=726aded0f51d6d3c6833d711187b1c4f&oe=563ADBC7&__gda__=1446620933_129d82d1f58d93d382625b422e5da8e8) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.background-clip {
+  background: #fff;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+  color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  -webkit-animation: BackgroundAnimated 15s linear infinite;
+  -moz-animation: BackgroundAnimated 15s linear infinite;
+  -ms-animation: BackgroundAnimated 15s linear infinite;
+  -o-animation: BackgroundAnimated 15s linear infinite;
+  animation: BackgroundAnimated 15s linear infinite;
+}
+
+@keyframes BackgroundAnimated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-webkit-keyframes BackgroundAnimated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-ms-keyframes BackgroundAnimated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@-moz-keyframes BackgroundAnimated {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
